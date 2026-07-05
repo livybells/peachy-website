@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="284" viewBox="0 0 240 284">
+  <rect width="240" height="284" rx="9" fill="#FFD6BC"/>
+  <g opacity="0.55" stroke="#4A6741" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="72" y="104" width="96" height="72" rx="8"/>
+    <circle cx="94" cy="126" r="8"/>
+    <path d="M72 164 L104 136 L128 156 L146 138 L168 158"/>
+  </g>
+  <text x="120" y="204" text-anchor="middle" font-family="'Plus Jakarta Sans',system-ui,sans-serif" font-size="13" fill="#4A6741" opacity="0.6">campaign shot</text>
+</svg>

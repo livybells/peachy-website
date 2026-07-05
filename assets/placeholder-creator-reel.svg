@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="264" viewBox="0 0 240 264">
+  <rect width="240" height="264" rx="9" fill="#FFD6BC"/>
+  <g opacity="0.55" stroke="#4A6741" stroke-width="2" stroke-linecap="round" fill="none">
+    <rect x="86" y="96" width="68" height="52" rx="8"/>
+    <path d="M120 96 L120 84 M104 84 L136 84"/>
+    <circle cx="120" cy="122" r="14"/>
+    <circle cx="120" cy="122" r="5" fill="#4A6741" stroke="none"/>
+  </g>
+  <text x="120" y="184" text-anchor="middle" font-family="'Plus Jakarta Sans',system-ui,sans-serif" font-size="13" fill="#4A6741" opacity="0.6">creator reel</text>
+</svg>
