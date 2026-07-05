@@ -142,7 +142,7 @@ img { max-width: 100%; }
 .badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--mango); display: inline-block; animation: twinkle 2.4s ease-in-out infinite; }
 .badge-label { font-size: .7rem; color: var(--peachy); letter-spacing: .18em; text-transform: uppercase; font-weight: 600; }
 .hero-title {
-  font-family: 'Fraunces', serif; font-weight: 900; line-height: 1.0; letter-spacing: -0.03em;
+  font-family: 'Fraunces', serif; font-weight: 900; line-height: 1.15; letter-spacing: -0.03em;
   margin: 0 0 1.5rem; color: var(--cream);
 }
 .hero-title-line { display: block; font-size: clamp(3rem, 7vw, 5.5rem); }
@@ -238,7 +238,7 @@ img { max-width: 100%; }
   border-radius: 50%; background: rgba(255, 184, 48, 0.08); pointer-events: none;
 }
 .watermark-stats { top: 50%; left: -270px; transform: translateY(-50%) rotate(-12deg); width: 540px; opacity: .11; }
-.stats h2 { margin-bottom: 4rem; }
+.stats h2 { margin-bottom: 4rem; color: var(--cream); }
 .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; position: relative; }
 .stat-card {
   background: rgba(255, 243, 232, 0.06); border: 1px solid rgba(255, 243, 232, 0.1); border-radius: 16px;
