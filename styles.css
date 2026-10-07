@@ -176,6 +176,7 @@ img { max-width: 100%; }
 .hero-card-a .hero-card-inner { transform: rotate(-7deg); }
 .hero-card-b .hero-card-inner { transform: rotate(7deg); }
 .hero-slot { display: block; width: 100%; height: auto; border-radius: 9px; }
+.hero-slot-video { aspect-ratio: 240 / 264; object-fit: cover; }
 .hero-mark {
   background: var(--blush); border-radius: 52% 42% 54% 40%;
   padding: 2.1rem 2.3rem 2.1rem 1.7rem; display: flex; align-items: center; justify-content: center;
