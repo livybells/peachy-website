@@ -166,7 +166,20 @@ img { max-width: 100%; }
 
 .hero-visual { position: relative; width: 460px; height: 520px; display: flex; align-items: center; justify-content: center; }
 .hero-ring { position: absolute; animation: spinSlow 40s linear infinite; pointer-events: none; }
-.hero-card { position: absolute; z-index: 3; }
+.hero-card { position: absolute; z-index: 3; cursor: pointer; }
+.hero-card-inner { position: relative; }
+.hero-card-toggle {
+  position: absolute; bottom: 10px; right: 10px; z-index: 4;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(61, 31, 45, 0.55); backdrop-filter: blur(2px);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity .2s; pointer-events: none;
+}
+.hero-card:hover .hero-card-toggle, .hero-card:focus-visible .hero-card-toggle, .hero-card.is-paused .hero-card-toggle { opacity: 1; }
+.hero-card-toggle svg { width: 13px; height: 13px; fill: var(--cream); }
+.hero-card-toggle .icon-play { display: none; }
+.hero-card.is-paused .hero-card-toggle .icon-pause { display: none; }
+.hero-card.is-paused .hero-card-toggle .icon-play { display: block; }
 .hero-card-a { top: 2%; left: -8%; width: 196px; animation: floatA 6.5s ease-in-out infinite; }
 .hero-card-b { bottom: 0%; right: -10%; width: 212px; animation: floatB 7.5s ease-in-out infinite; }
 .hero-card-inner {

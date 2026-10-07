@@ -75,6 +75,28 @@
   }, { threshold: 0.6 });
   counters.forEach(function (el) { cio.observe(el); });
 
+  // ── hero card video pause/play ──
+  var heroCards = document.querySelectorAll('.hero-card');
+  heroCards.forEach(function (card) {
+    var video = card.querySelector('video');
+    if (!video) return;
+    var toggle = function () {
+      if (video.paused) {
+        video.play();
+        card.classList.remove('is-paused');
+        card.setAttribute('aria-label', 'Pause video');
+      } else {
+        video.pause();
+        card.classList.add('is-paused');
+        card.setAttribute('aria-label', 'Play video');
+      }
+    };
+    card.addEventListener('click', toggle);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+    });
+  });
+
   // ── hero mouse parallax ──
   if (!prefersReduced) {
     var hero = document.getElementById('hero');
