@@ -164,8 +164,8 @@ img { max-width: 100%; }
 .link-arrow span { font-size: 1.1rem; }
 .link-arrow:hover { color: var(--peachy); }
 
-.hero-visual { position: relative; width: 460px; height: 520px; display: flex; align-items: center; justify-content: center; }
-.hero-ring { position: absolute; animation: spinSlow 40s linear infinite; pointer-events: none; }
+.hero-visual { position: relative; width: clamp(240px, 62vw, 460px); height: clamp(272px, 70vw, 520px); display: flex; align-items: center; justify-content: center; max-width: 100%; }
+.hero-ring { position: absolute; width: clamp(180px, 46vw, 330px); height: clamp(180px, 46vw, 330px); animation: spinSlow 40s linear infinite; pointer-events: none; }
 .hero-card { position: absolute; z-index: 3; cursor: pointer; }
 .hero-card-inner { position: relative; }
 .hero-card-toggle {
@@ -180,8 +180,8 @@ img { max-width: 100%; }
 .hero-card-toggle .icon-play { display: none; }
 .hero-card.is-paused .hero-card-toggle .icon-pause { display: none; }
 .hero-card.is-paused .hero-card-toggle .icon-play { display: block; }
-.hero-card-a { top: 2%; left: -8%; width: 196px; animation: floatA 6.5s ease-in-out infinite; }
-.hero-card-b { bottom: 0%; right: -10%; width: 212px; animation: floatB 7.5s ease-in-out infinite; }
+.hero-card-a { top: 2%; left: -8%; width: clamp(104px, 27vw, 196px); animation: floatA 6.5s ease-in-out infinite; }
+.hero-card-b { bottom: 0%; right: -10%; width: clamp(112px, 29vw, 212px); animation: floatB 7.5s ease-in-out infinite; }
 .hero-card-inner {
   width: 100%; padding: 8px;
   background: var(--cream); border-radius: 16px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
@@ -195,7 +195,7 @@ img { max-width: 100%; }
   padding: 2.1rem 2.3rem 2.1rem 1.7rem; display: flex; align-items: center; justify-content: center;
   z-index: 2; box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
 }
-.hero-mark-img { display: block; width: 170px; height: auto; animation: peachPulse 3s ease-in-out infinite; }
+.hero-mark-img { display: block; width: clamp(100px, 26vw, 170px); height: auto; animation: peachPulse 3s ease-in-out infinite; }
 
 .scroll-cue {
   position: absolute; bottom: 2rem; left: 0; right: 0;
