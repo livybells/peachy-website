@@ -180,8 +180,8 @@ img { max-width: 100%; }
 .hero-card-toggle .icon-play { display: none; }
 .hero-card.is-paused .hero-card-toggle .icon-pause { display: none; }
 .hero-card.is-paused .hero-card-toggle .icon-play { display: block; }
-.hero-card-a { top: 2%; left: -8%; width: clamp(104px, 27vw, 196px); animation: floatA 6.5s ease-in-out infinite; }
-.hero-card-b { bottom: 0%; right: -10%; width: clamp(112px, 29vw, 212px); animation: floatB 7.5s ease-in-out infinite; }
+.hero-card-a { top: 2%; left: -8%; width: clamp(125px, 32.4vw, 235px); animation: floatA 6.5s ease-in-out infinite; }
+.hero-card-b { bottom: 0%; right: -10%; width: clamp(134px, 34.8vw, 254px); animation: floatB 7.5s ease-in-out infinite; }
 .hero-card-inner {
   width: 100%; padding: 8px;
   background: var(--cream); border-radius: 16px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
@@ -189,7 +189,7 @@ img { max-width: 100%; }
 .hero-card-a .hero-card-inner { transform: rotate(-7deg); }
 .hero-card-b .hero-card-inner { transform: rotate(7deg); }
 .hero-slot { display: block; width: 100%; height: auto; border-radius: 9px; }
-.hero-slot-video { aspect-ratio: 240 / 264; object-fit: cover; }
+.hero-slot-video { aspect-ratio: 480 / 854; object-fit: cover; }
 .hero-mark {
   background: var(--blush); border-radius: 52% 42% 54% 40%;
   padding: 2.1rem 2.3rem 2.1rem 1.7rem; display: flex; align-items: center; justify-content: center;
