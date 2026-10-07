@@ -164,11 +164,11 @@ img { max-width: 100%; }
 .link-arrow span { font-size: 1.1rem; }
 .link-arrow:hover { color: var(--peachy); }
 
-.hero-visual { position: relative; width: 380px; height: 440px; display: flex; align-items: center; justify-content: center; }
+.hero-visual { position: relative; width: 460px; height: 520px; display: flex; align-items: center; justify-content: center; }
 .hero-ring { position: absolute; animation: spinSlow 40s linear infinite; pointer-events: none; }
 .hero-card { position: absolute; z-index: 3; }
-.hero-card-a { top: 2%; left: -10%; width: 154px; animation: floatA 6.5s ease-in-out infinite; }
-.hero-card-b { bottom: 0%; right: -12%; width: 167px; animation: floatB 7.5s ease-in-out infinite; }
+.hero-card-a { top: 2%; left: -8%; width: 196px; animation: floatA 6.5s ease-in-out infinite; }
+.hero-card-b { bottom: 0%; right: -10%; width: 212px; animation: floatB 7.5s ease-in-out infinite; }
 .hero-card-inner {
   width: 100%; padding: 8px;
   background: var(--cream); border-radius: 16px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
